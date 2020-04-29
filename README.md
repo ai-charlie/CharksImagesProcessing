@@ -1,0 +1,2 @@
+# CharksImagesProcessing
+Openc, Pvython, Tensorflow
