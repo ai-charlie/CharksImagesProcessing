@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# igore data file
+banshu_data/
+banshu_data_less/
+
+# igore note file
+笔记/
+
+# igore pycharm and vscode config file
+.idea/
+.vscode/
