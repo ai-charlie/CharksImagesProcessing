@@ -6,7 +6,7 @@ cv.namedWindow("input", cv.WINDOW_AUTOSIZE)
 cv.imshow("input", src)
 
 # t1 = 100, t2 = 3*t1 = 300
-edge = cv.Canny(src, 100, 300)
+edge = cv.Canny(src, 100, 300)   
 cv.imshow("mask image", edge)
 cv.imwrite("./edge.png", edge)
 edge_src = cv.bitwise_and(src, src, mask=edge)

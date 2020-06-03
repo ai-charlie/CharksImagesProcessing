@@ -16,11 +16,8 @@
 4. 裁剪并补充汉字部分为正方形，并按从左到右、从上到下的顺序编号
 
 ### 代码列表
-序号    | 描述   | 备注 | 状态
-:--------: | :--------: |:--------:| :--------:
-0 | [识别黑板字，手写板书分割](opencv-python/Main/CharksImagesProcessing.py) | 主代码文件 | 修改
 1 | [黑板裁剪](opencv-python/CodeLab01/黑板裁剪.py) | 裁剪图片,去除图片中非黑板部分| 修改
-
+2 | [板书OCR](opencv-python/Main/OCR.py)| 手写汉字数字识别，以命名裁剪的板书字|修改
 ### 参考
 序号    | 描述   | 备注
 :--------: | :--------: |:--------:
@@ -28,6 +25,10 @@
 1 | [古籍裁剪](opencv-python/CodeLab03/古籍裁剪.py) | [原链接](https://www.cnblogs.com/SaltyFishQF/p/11474482.html?tdsourcetag=s_pctim_aiomsg)
 2 | [python3.7官方中文文档](https://docs.python.org/zh-cn/3.7/library) | 
 3 | [Canny边缘检测](opencv-python/CodeLab04/canny边缘检测.py) | [来自](https://github.com/JimmyHHua/opencv_tutorials/blob/master/README_CN.md)
+4 | [pytesseract库](https://pypi.org/project/pytesseract/)|Python-tesseract是用于python的光学字符识别（OCR）工具
+
+### [pytesseract库](https://pypi.org/project/pytesseract/)
+Python-tesseract是用于python的光学字符识别（OCR）工具。也就是说，它将识别并“读取”图像中嵌入的文本。Python-tesseract是Google Tesseract-OCR Engine的包装。它也可以用作tesseract的独立调用脚本，因为它可以读取Pillow和Leptonica图像库支持的所有图像类型，包括jpeg，png，gif，bmp，tiff等。此外，如果用作脚本，Python-tesseract将打印识别的文本，而不是将其写入文件。
 
 ### [黑板裁剪](opencv-python/CodeLab01/黑板裁剪.py)
 ### Method 根据直方图投影裁剪
