@@ -16,9 +16,14 @@
 4. 裁剪并补充汉字部分为正方形，并按从左到右、从上到下的顺序编号
 
 ### 代码列表
-1 | [黑板裁剪](opencv-python/CodeLab01/黑板裁剪.py) | 裁剪图片,去除图片中非黑板部分| 修改
-2 | [板书OCR](opencv-python/Main/OCR.py)| 手写汉字数字识别，以命名裁剪的板书字|修改
+序号 | 描述 | 备注 |
+:--------: | :--------: |:--------:
+1 | [黑板裁剪](opencv-python/CodeLab01/黑板裁剪.py) | 裁剪图片,去除图片中非黑板部分 | 修改
+2 | [板书OCR](opencv-python/Main/OCR.py) | 手写汉字数字识别，以命名裁剪的板书字 | 修改
+3 |
+
 ### 参考
+
 序号    | 描述   | 备注
 :--------: | :--------: |:--------:
 0 | [点多边形轮廓发现](opencv-python/CodeLab02/点多边形轮廓发现.py) | [来自](https://github.com/JimmyHHua/opencv_tutorials/blob/master/README_CN.md)
